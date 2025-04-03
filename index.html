@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GrowthDesk - Discover Government Internship and Jobs for you</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="left-section">
+      <img src="https://cdn.myscheme.in/images/logos/emblem-black.svg" alt="Gov Logo" class="logo">
+      <h1 class="myscheme-logo">Growth<span>Desk</span></h1>
+      <img src="https://cdn.myscheme.in/images/logos/digital-india-black.svg" alt="Digital India Logo" class="digital-logo">
+    </div>
+    <div class="search-section">
+      <input type="text" placeholder="Enter scheme name to search..." id="searchBar">
+    </div>
+    <div class="right-section">
+      <button class="btn" id="signInBtn">Sign In →</button>
+      <button class="lang-btn">Eng</button>
+      <button id="themeToggle">🌙</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="left-hero">
+      <img src="https://www.thestatesman.com/wp-content/uploads/2017/08/1487064858-internship-517--getty.jpg" alt="Farmer with Phone" class="farmer-img">
+    </div>
+    <div class="middle-hero">
+      <img src="https://assets.entrepreneur.com/providers/marketbeat/hero-image-marketbeat-379015.jpeg" class="rounded-img" alt="">
+      <img src="https://media.istockphoto.com/id/1326171173/photo/mature-businessman-looking-at-job-search-website-on-a-laptop-computer.jpg?s=612x612&w=0&k=20&c=9X2A4Xc5SRlb30gFA7k1MO55rLb1qCDxPyvTMzeEtgw=" class="rounded-img" alt="">
+    </div>
+    <div class="right-hero">
+      <h2><span>Discover</span> Government Internship and Jobs for you...</h2>
+      <p>Find Personalised Opportunities Based on your Eligibility</p>
+      <button class="btn discover-btn" onclick="findSchemes()">Find What Is For You →</button>
+      <p class="hashtags">#GOVERNMENTJOB / #INTERNSHIPFORYOU</p>
+    </div>
+  </section>
+
+  <!-- Floating Chat Button -->
+  <div class="chat-icon" onclick="openChat()">my</div>
+
+  <script src="script.js"></script>
+  <!-- Stats Section -->
+<section class="stats">
+  <div class="stats-wrapper">
+    <div class="stat-box">
+      <h3>60+</h3>
+      <p>Total Jobs →</p>
+    </div>
+    <div class="stat-box">
+      <h3>30+</h3>
+      <p>Total Internship →</p>
+    </div>
+    <div class="stat-box">
+      <h3>90+</h3>
+      <p>Total Jobs/Internships →</p>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('categories')">Categories</button>
+    <button class="tab" onclick="switchTab('states')">Technical</button>
+    <button class="tab" onclick="switchTab('ministries')">Non-Technical</button>
+  </div>
+
+  <div id="categories" class="tab-content">
+    <h2><br>Find schemes based on categories</h2>
+    <div class="categories-grid">
+        <div class="category">
+            <img src="icons/agriculture.svg" alt="Agriculture Icon">
+            <p><strong>08</strong> Schemes</p>
+            <h3>Agriculture, Rural & Environment</h3>
+        </div>
+        <div class="category">
+            <img src="icons/banking.svg" alt="Banking Icon">
+            <p><strong>12</strong> Schemes</p>
+            <h3>Banking, Financial Services & Insurance</h3>
+        </div>
+
+        <div class="category">
+            <img src="icons/business.svg" alt="Business Icon">
+            <p><strong>18</strong> Schemes</p>
+            <h3>Business & Entrepreneurship</h3>
+        </div>
+        <div class="category">
+            <img src="icons/Education.svg" alt="Education Icon">
+            <p><strong>10</strong> Schemes</p>
+            <h3>Education & Learning</h3>
+        </div>
+        <div class="category">
+            <img src="icons/skills.svg" alt="Skills Icon">
+            <p><strong>28</strong> Schemes</p>
+            <h3>Skills & Employment</h3>
+        </div>
+
+        <div class="category">
+            <img src="icons/science.svg" alt="Science Icon">
+            <p><strong>20</strong> Schemes</p>
+            <h3>Science, IT & Communications</h3>
+        </div>
+    </div>
+</div>
+</section>
+<section class="container">
+  <h4 class="subheading">How it works</h4>
+  <h1 class="heading">Easy steps to apply <br> for Government Schemes</h1>
+  <div class="steps">
+      <div class="step">
+          <img src="icons/check.svg" alt="Enter Details" class="icon">
+          <h3>Enter Details</h3>
+          <p>Start by entering your <strong>basic details!</strong></p>
+      </div>
+      <div class="arrow">&#10140;</div>
+      <div class="step">
+          <img src="icons/search.svg" alt="Search" class="icon">
+          <h3>Search</h3>
+          <p>Our search engine will <strong>find the relevant schemes!</strong></p>
+      </div>
+      <div class="arrow">&#10140;</div>
+      <div class="step">
+          <img src="icons/apply.svg" alt="Select & Apply" class="icon">
+          <h3>Select & Apply</h3>
+          <p><strong>Select and apply</strong> for the best suited scheme</p>
+      </div>
+  </div>
+</section>
+<script src="script.js"></script>
+
+</body>
+</html>
+</html>
